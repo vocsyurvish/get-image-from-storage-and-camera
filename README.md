@@ -11,6 +11,16 @@
     <uses-permission android:name="android.permission.CAMERA" />
 ```
 
+#### Add query.
+
+```xml
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+```
+
 #### For Camera add features to `manifest.xml`
 
 ```xml
